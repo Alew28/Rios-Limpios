@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face {
+    font-family: "LeagueSpartan";
+    src: url(LeagueSpartan-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Questrial";
+    src: url(Questrial-Regular.ttf);
+}
+@font-face {
+    font-family: "St";
+    src: url(Staatliches-Regular.ttf);
+}
+
+    /* COSAS GENERALES*/
+    header{ 
+        padding: 20px;
+        background-color: #FFFFFF;
+    }
+    body{
+        background-color: rgb(164, 194, 145);
+    }
+    .Titulo{
+        margin-top: 20px;
+        text-align: center;
+        font-family: "Ft";
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: rgb(111, 129, 101);
+    }
+    .parrafos{
+        font-size: larger;
+        padding: 100px auto;
+        margin: 10px 300px;
+        text-align: justify;
+        margin-bottom: 60px;
+    }
+    .IMG{
+        text-align: center;
+    }
+
+    /* HEADER */
+    .logo{
+        margin-bottom: 18px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-weight: bold;
+    }
+    .BotoneH ul li{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .BotoneH a{
+        color: #1F1F1F;
+        text-decoration: none;
+        margin: 0px 30px;
+        padding: 5px 15px;
+        border-radius: 30px;
+    }
+    .BotoneH a:hover{
+        background-color: #6C7554;
+        color: #FFFFFF;
+    }
+    
+    
+
+
+
+   
+    /* FOOTER */
+    footer{
+        background-color: #526149;
+        padding: 2em;
+        bottom: 0;
+        position: relative;
+        color:#1F1F1F ;
+        width: 100%;
+
+    }
+    .info_fot{
+        column-count: 3; 
+    }
+    .info{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
