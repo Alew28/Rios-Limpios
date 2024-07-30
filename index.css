@@ -217,7 +217,7 @@ body{
       padding: 3px;
     } 
     .menu a{
-      margin: 1vh;
+      margin: 2vh;
       padding: 1vh;
       font-size: 2.5vh;
       display: block;
@@ -272,13 +272,13 @@ body{
     .imagen1{
       margin-left: 5%;
       margin-right: 5%;
-      position: relative;
+      position: static;
       height: 250px; 
       width: 90%;
     }
     .imagen1::before{
       content: "";
-
+      display: block;
       width: 100%;
       height: 100%;
       background-image: url(home/remp1.jpg);
@@ -292,13 +292,13 @@ body{
     .imagen2{
       margin-left: 5%;
       margin-right: 5%;
-      position: relative;
+      position: static;
       height: 250px; 
       width: 90%;
     }
     .imagen2::before{
       content: "";
-      
+      display: block;
       width: 100%;
       height: 100%;
       background-image: url(home/remp2.jpg);
@@ -312,7 +312,7 @@ body{
       column-gap: 1%;
     }
     .carousel{
-      position: relative;
+      position: static;
       width: 300px;
       margin: auto;
       text-align: right;
