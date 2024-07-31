@@ -39,10 +39,6 @@
   #check{
   display: none;
   }
-  .menu a:hover{
-  background-color: #7BA2C1;
-  color: #FFFFFF;
-  }
   /*FOOTER*/
   .info_fot{
   display: grid;
@@ -87,6 +83,10 @@
       padding: 1vw;
       font-size: 2.5vh;
     }
+    .menu a:hover{
+      background-color: #7BA2C1;
+      color: #FFFFFF;
+      }
     .menu{
       margin-top: 6vh;
     }
