@@ -67,16 +67,16 @@ column-gap: 5%;
     text-align: justify;
   }
   /*HEADER*/
-  header{ 
-    height: 18vh;
-    padding: 1vw;
+  nav{ 
     background-color: #FFFFFF;
-    position: fixed;
     width: 100%;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    text-align: center;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
     top: 0;
+    transition: top 0.5s;
   }    
   .menu a{
     margin: 1vw;
@@ -86,45 +86,52 @@ column-gap: 5%;
   .menu a:hover{
     background-color: #7BA2C1;
     color: #FFFFFF;
-    }
-  .menu{
-    margin-top: 6vh;
   }
   .logo{
-    height: 15vh;
+    height: 12vh;
   }
   /*BODY*/
   .espacio{
-    margin-top: 18vh;
+    height: 15vh;
+    background-color: #FFFFFF;
   }
   .objetivos{
-    display: grid;
-    margin-left: 2%;
-    margin-right: 2%;
-    grid-template-columns: 24% 24% 24% 24%;
-    column-gap: 1.333333333333333333333333333333333333333333333333333333333333333%;
+    margin-top: 4vh;
+    margin-left: 8%;
+    margin-right: 8%;
   }
   .galeria{
-    padding: 15px;
-    text-align: center;
-    background-color: #7BA2C1;
+    margin: 15px;
+    align-items: center;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 40% 59%;
+    column-gap: 1%;
   }
+  .galeria2{
+    margin: 15px;
+    align-items: center;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 59% 40%;
+    column-gap: 1%;
+  }
+  .galeria2 img,
   .galeria img{
-    width: 100%;
+    width: 30vw;
     height: auto; 
   }
   .tituloimg{
     font-family: "st";
     font-size: 25px;
     margin-top: 10px;
-    color: #FFFFFF;
+    color: #637f97;
   }
   .textimg{
     font-family: LeagueSpartan;
     font-size: 25px;
-    text-align: center;
     margin-top: 10px;
-    color: #FFFFFF;
+    color: #637f97;
   }
   /* FOOTER */
   footer{

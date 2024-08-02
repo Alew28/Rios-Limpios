@@ -6,27 +6,30 @@
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.js">
-
 <body>
     <header>
-        <div class="logodiv"> <img src="logo1.png" class="logo"> </div>
-        <input type="checkbox" id="check">
-        <label for="check" class="show-menu">
-            &#8801
-        </label>
-        <nav class="menu">
-            <a href="index.html">Inicio</a>
-            <a href="objetivos.html">Objetivos</a>
-            <a href="galeria.html">Galeria</a>
-            <a href="mapa.html">Mapa</a>
-            <a href="https://www.mercadopago.com.ar/" target="_blank">Donaciones</a>
-            <label for="check" class="hide-menu">
-                &#215
+        <nav id="navbar">
+            <div class="logodiv"> <img src="logo1.png" class="logo"> </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="show-menu">
+                &#8801
             </label>
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="objetivos.html">Objetivos</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="mapa.html">Mapa</a>
+                <a href="https://www.mercadopago.com.ar/" target="_blank">Donaciones</a>
+                <label for="check" class="hide-menu">
+                    &#215
+                </label>
+            </div>
         </nav>
+        <script src="index.js"></script> 
     </header>
+
     <div class="espacio"></div>
+    <div id="pepe"></div>
     <section id="nosotros">
         <div class="Titulo"><h1>Sobre Nosotros</h1></div>
         <div class="sobre_nosotros">
@@ -38,29 +41,37 @@
                 <p>En dicho encuentro convocamos 50 voluntarios,  se lograron recolectar DOS CAMIONES Y MEDIO DE RESIDUOS y se plantaron 40 árboles nativos gracias a AFA y Asociación Unión Tamberos que fueron los sponsor de árboles. </p>
                 <p>El segundo encuentro se realiza en la localidad de Esperanza, ya que fueron convocados desde la Municipalidad para realizar dicha acción en la zona del Balneario donde se juntaron cerca de 100 personas para realizar limpieza y plantar 202 árboles gracias a Agroservicios Humboldt, Biassoni, Yeruva, Bladek. </p>
             </div>
-            <div class="imagen2">
-                    <img src="home/home2.jpg" class="imagensz">
-            </div>   
         </div>
-        <div class="parrafos">
-            <p>Así continuamos convocando y reuniendo en zonas de fácil acceso para recolectar la basura que está  ACCESIBLE, esta basura que está siendo detenida por los árboles que están sobre el caudal del río es más fácil para sacar que en el fondo del mar. Además de beneficiar a la fauna local y restar contaminación del agua.  Dejamos el mundo un poco mejor de lo que estaba, lo que hacemos saben que cuenta.</p>
-            <p>Después de varios encuentros decidimos realizar una BIOBARDA, una barrera de detencion de los residuos flotantes donde de esta manera evitamos que la basura siga su curso. Una vez al mes nos reunimos a limpiarla y generar conciencia de lo que sucede a pocos km de nuestras casas. </p>
-            <p>El corriente año 2024 logramos el acuerdo con la Comuna de la Localidad de Humboldt donde accedió el desafío de mantener limpia la biobarda realizando una limpieza mensual de la misma. De esta manera podemos continuar creciendo con el proyecto de Iniciativa Rios Limpios, proyectando crear más biobardas en la región en conjunto con las escuelas primarias, con los voluntarios realizar la colocación y limpieza del lugar para que luego cada Comuna se haga cargo del mantenimiento y limpieza de la misma. </p>    
+        <div class="sobre_nosotros2">
+            <div class="parrafos">
+                <p>Así continuamos convocando y reuniendo en zonas de fácil acceso para recolectar la basura que está  ACCESIBLE, esta basura que está siendo detenida por los árboles que están sobre el caudal del río es más fácil para sacar que en el fondo del mar. Además de beneficiar a la fauna local y restar contaminación del agua.  Dejamos el mundo un poco mejor de lo que estaba, lo que hacemos saben que cuenta.</p>
+                <p>Después de varios encuentros decidimos realizar una BIOBARDA, una barrera de detencion de los residuos flotantes donde de esta manera evitamos que la basura siga su curso. Una vez al mes nos reunimos a limpiarla y generar conciencia de lo que sucede a pocos km de nuestras casas. </p>
+                <p>El corriente año 2024 logramos el acuerdo con la Comuna de la Localidad de Humboldt donde accedió el desafío de mantener limpia la biobarda realizando una limpieza mensual de la misma. De esta manera podemos continuar creciendo con el proyecto de Iniciativa Rios Limpios, proyectando crear más biobardas en la región en conjunto con las escuelas primarias, con los voluntarios realizar la colocación y limpieza del lugar para que luego cada Comuna se haga cargo del mantenimiento y limpieza de la misma. </p>    
+            </div>
+            <div class="imagen2">
+                <img src="home/home2.jpg" class="imagensz">
+            </div> 
         </div>
     </section>
 
     <section id="como_hacemos">
         <div class="Titulo"><h1>¿Como lo hacemos?</h1></div>
         <div class="parrafos">
-            <ul>
-                <li><h3>Conectar Voluntades</h3></li>
+            <div class="cuadros">
+            <div class="cuadro">
+                <h3>Conciencia Ambiental</h3>
+                <p>Conciencia Ambiental, las acciones repetidas en el tiempo dejan un camino donde se invita a la sociedad a seguir ese mismo camino.</p>
+            </div>
+            <div class="cuadro">
+                <h3>Plan de accion</h3>
+                <p>Convocatoria de voluntarios con motivación de llevar adelante acciones posibles y eficaces para cuidar el planeta.</p>  
+            </div>
+            <div class="cuadro">
+                <h3>Conectar Voluntades</h3>
                 <p>Conocer las instituciones y sus recursos para usarlos en favor de una acción para el medioambiente.</p>
-                <li><h3>Plan de accion</h3></li>
-                <p>Convocatoria de voluntarios con motivación de llevar adelante acciones posibles y eficaces para cuidar el planeta.</p>
-                <li><h3>Conciencia Ambiental</h3></li>
-                <p>Conciencia Ambiental, las acciones repetidas en el tiempo dejan un camino donde se invita a la sociedad a seguir ese mismo camino, el camino de sentirnos parte de la tierra y no superior a ella.</p>
-            </ul>
+            </div>
         </div>
+    </div>
     </section>
 
     <section id="beneficio">
@@ -93,11 +104,10 @@
                   <div class="slide"><img src="carrusel-home/8.jpg" alt="imagen 8"></div>
                 </div>
               </div>
-              <script src="index.js"></script>    
+              <script src="carrusel.js"></script>    
         </div>
         <br>
     </section>
-        
 </body>
 
 <footer>
@@ -106,7 +116,7 @@
             <img src="footer/whatsapp.png" class="img_fot">
             <br>
             <br>
-            <h3 class="dato">+54 3496-416729</h3>
+            <h3 class="dato">NUM: +54 3496-416729</h3>
         </div>
         <div class="info">
             <img src="footer/instagram.png" class="img_fot">
@@ -121,7 +131,7 @@
             <h3 class="dato">Alias: RiosLimpios:MP</h3>
         </div>
     </div>
-    <div class="Titulo-Foot">Nuestros Colaboradores:</div>
+    <div class="Titulo-Foot"></div>
     <div class="imgfoot">
         <div class="imag"> <img src="footer/Avigan.png" class="imagsz"></div>
         <div class="imag"> <img src="footer/vahume.png" class="imagsz"></div>

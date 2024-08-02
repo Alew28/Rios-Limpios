@@ -67,16 +67,16 @@
       text-align: justify;
     }
     /*HEADER*/
-    header{ 
-      height: 18vh;
-      padding: 1vw;
+    nav{ 
       background-color: #FFFFFF;
-      position: fixed;
       width: 100%;
-      display: grid;
-      grid-template-columns: 30% 70%;
-      text-align: center;
+      height: 15vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
       top: 0;
+      transition: top 0.5s;
     }    
     .menu a{
       margin: 1vw;
@@ -86,15 +86,15 @@
     .menu a:hover{
       background-color: #7BA2C1;
       color: #FFFFFF;
-      }
-    .menu{
-      margin-top: 6vh;
     }
     .logo{
-      height: 15vh;
+      height: 12vh;
     }
     /*BODY*/
-
+    .espacio{
+      height: 15vh;
+      background-color: #FFFFFF;
+    }
     /* FOOTER */
     footer{
       background-color: #FFFFFF;

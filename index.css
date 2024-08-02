@@ -56,7 +56,6 @@ body{
   grid-template-columns: 30% 30% 30%;
   column-gap: 5%;
 }
-
 /*PANTALLA COMPU ---------------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 1000px) {
     /* COSAS GENERALES*/
@@ -78,16 +77,16 @@ body{
       text-align: justify;
     }
     /*HEADER*/
-    header{ 
-      height: 18vh;
-      padding: 1vw;
+    nav{ 
       background-color: #FFFFFF;
-      position: fixed;
       width: 100%;
-      display: grid;
-      grid-template-columns: 30% 70%;
-      text-align: center;
+      height: 15vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
       top: 0;
+      transition: top 0.5s;
     }    
     .menu a{
       margin: 1vw;
@@ -98,20 +97,27 @@ body{
       background-color: #7BA2C1;
       color: #FFFFFF;
     }
-    .menu{
-      margin-top: 6vh;
-    }
     .logo{
-      height: 15vh;
+      height: 12vh;
     }
     /*BODY*/
     .espacio{
-      margin-top: 18vh;
+      height: 15vh;
+      background-color: #FFFFFF;
     }
     .sobre_nosotros{
       display: grid;
-      grid-template-columns: 24% 50% 24%;
+      grid-template-columns: 24% 75%;
       column-gap: 1%;
+      margin-left: 3vw;
+      margin-right: 3vw;
+    }
+    .sobre_nosotros2{
+      display: grid;
+      grid-template-columns: 75% 24%;
+      column-gap: 1%;
+      margin-left: 3vw;
+      margin-right: 3vw;
     }
     .texto{
       font-family: LeagueSpartan;
@@ -120,14 +126,24 @@ body{
       text-align: justify;
     }
     .imagen1{
-      text-align: right;
+      text-align: center;
     }
     .imagensz{
       width: 22vw;
-      height: 65vh;
-  }
+    }
     .imagen2{
       text-align: left;
+    }
+    .cuadro {
+      background-color: #b0d1bf;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+    }
+    .cuadros{
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      column-gap: 5%;
     }
     /* CARRUSEL*/
     .voluntarios{
@@ -166,18 +182,22 @@ body{
       grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
     }
     .Titulo-Foot{
-      width: 100%;
-      margin-bottom: 10px;
+      width: 86%;
+      margin-left: 7vw;
+      margin-right: 7vw;
+      margin-top: 40px;
+      padding-top: 10px;
       text-align: center;
       font-family: "St";
       font-size: 3vh;
       color: #7BA2C1;
+      border-top: 2px solid #7BA2C1;
     }
     .imagsz{
       width: 100px;
     }
+    
 }
-
 /*PANTALLA CELU ---------------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 999px) {
   /* COSAS GENERALES*/
@@ -356,4 +376,3 @@ body{
       width: 50px;
     }
   }
-    
