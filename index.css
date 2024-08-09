@@ -15,12 +15,12 @@
     src: url(Staatliches-Regular.ttf);
 }
 body{
-  background-color: #bde3ce;
+  background-color: #dcdcdc;
 }
 /* HEADER */
 .menu a {
   text-decoration: none;
-  color: #7BA2C1;
+  color: #ffffff;
   border-radius: 30px;
   font-weight: lighter;
   font-family: "St";
@@ -66,7 +66,7 @@ body{
       font-family: "St";
       font-weight: bold;
       color: #FFFFFF;
-      background-color: #7BA2C1;
+      background-color: #6e95b6;
     }
     .parrafos{
       font-family: LeagueSpartan;
@@ -78,7 +78,7 @@ body{
     }
     /*HEADER*/
     nav{ 
-      background-color: #FFFFFF;
+      background-color: #7BA2C1;
       width: 100%;
       height: 15vh;
       display: flex;
@@ -94,8 +94,8 @@ body{
       font-size: 2.5vh;
     }
     .menu a:hover{
-      background-color: #7BA2C1;
-      color: #FFFFFF;
+      background-color: #ffffff;
+      color: #7BA2C1;
     }
     .logo{
       height: 12vh;
@@ -103,7 +103,7 @@ body{
     /*BODY*/
     .espacio{
       height: 15vh;
-      background-color: #FFFFFF;
+      background-color: #6e95b6;
     }
     .sobre_nosotros{
       display: grid;
@@ -135,7 +135,7 @@ body{
       text-align: left;
     }
     .cuadro {
-      background-color: #b0d1bf;
+      background-color: #97979780;
       padding: 20px;
       margin: 20px;
       text-align: center;
@@ -208,7 +208,7 @@ body{
       font-family: "St";
       font-weight: bold;
       color: #FFFFFF;
-      background-color: #7BA2C1;
+      background-color: #6e95b6;
     }
     .parrafos{
       font-family: LeagueSpartan;
@@ -220,7 +220,7 @@ body{
     }
   /*HEADER*/
   nav{ 
-    background-color: #FFFFFF;
+    background-color: #7BA2C1;
     width: 100%;
     height: 18vh;
     display: flex;
@@ -246,7 +246,7 @@ body{
   .menu{
     position: fixed;
     height: 40vh;
-    background-color: #FFFFFF;
+    background-color: #7BA2C1;
     top: 0;
     right: -100%;
     width: 100%;
@@ -274,7 +274,7 @@ body{
   /*BODY*/
     .espacio{
       height: 18vh;
-      background: #FFFFFF;
+      background: #7BA2C1;
     }
     .sobre_nosotros{
       display:list-item;
@@ -310,21 +310,16 @@ body{
     gap: 2%;
     padding: 20px;
     justify-content: space-between;
-    background-color: #f5f5f5;
     border-radius: 8px;
-}
-
-.carousel {
+  }
+  .carousel {
     position: relative;
     width: 100%;
     max-width: 600px;
     margin: 30px auto;
-    overflow: hidden; /* Asegura que las imágenes no sobresalgan */
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-
+  }
   /* FOOTER */
     footer{
       background-color: #FFFFFF;

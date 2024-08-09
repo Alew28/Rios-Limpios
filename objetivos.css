@@ -15,16 +15,16 @@
   src: url(Staatliches-Regular.ttf);
 }
 body{
-background-color: #bde3ce;
+  background-color: #dcdcdc;
 }
 /* HEADER */
 .menu a {
-text-decoration: none;
-color: #7BA2C1;
-border-radius: 30px;
-font-weight: lighter;
-font-family: "St";
-transition: 0.4s;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 30px;
+  font-weight: lighter;
+  font-family: "St";
+  transition: 0.4s;
 }
 .show-menu,
 .hide-menu{
@@ -48,52 +48,52 @@ column-gap: 5%;
 
 /*PANTALLA COMPU ---------------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 1000px) {
-  /* COSAS GENERALES*/
-  .Titulo{
-    width: 100%;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: "St";
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #7BA2C1;
-  }
-  .parrafos{
-    font-family: LeagueSpartan;
-    font-size: 2.5vh;
-    padding: 8px;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: justify;
-  }
-  /*HEADER*/
-  nav{ 
-    background-color: #FFFFFF;
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    transition: top 0.5s;
-  }    
-  .menu a{
-    margin: 1vw;
-    padding: 1vw;
-    font-size: 2.5vh;
-  }
-  .menu a:hover{
-    background-color: #7BA2C1;
-    color: #FFFFFF;
-  }
-  .logo{
-    height: 12vh;
-  }
+    /* COSAS GENERALES*/
+    .Titulo{
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: "St";
+      font-weight: bold;
+      color: #FFFFFF;
+      background-color: #6e95b6;
+    }
+    .parrafos{
+      font-family: LeagueSpartan;
+      font-size: 2.5vh;
+      padding: 8px;
+      margin-left: 30px;
+      margin-right: 30px;
+      text-align: justify;
+    }
+    /*HEADER*/
+    nav{ 
+      background-color: #7BA2C1;
+      width: 100%;
+      height: 15vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      transition: top 0.5s;
+    }    
+    .menu a{
+      margin: 1vw;
+      padding: 1vw;
+      font-size: 2.5vh;
+    }
+    .menu a:hover{
+      background-color: #ffffff;
+      color: #7BA2C1;
+    }
+    .logo{
+      height: 12vh;
+    }
   /*BODY*/
   .espacio{
     height: 15vh;
-    background-color: #FFFFFF;
+    background-color: #6e95b6;
   }
   .objetivos{
     margin-top: 4vh;
@@ -133,150 +133,162 @@ column-gap: 5%;
     margin-top: 10px;
     color: #637f97;
   }
-  /* FOOTER */
-  footer{
-    background-color: #FFFFFF;
-    padding-top: 2em;
-    bottom: 0;
-    position: relative;
-    color:#1F1F1F ;
-    width: 100%;
-  }
-  .info{   
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .dato{
-    color: #7BA2C1;
-    font-family: St;
-    font-size: 3vh;
-  }
-  .img_fot{
-    height: 4vh;
-  }
-  .imgfoot{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
-  }
-  .Titulo-Foot{
-    width: 100%;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: "St";
-    font-size: 3vh;
-    color: #7BA2C1;
-  }
-  .imagsz{
-    width: 100px;
-  }
+    /* FOOTER */
+    footer{
+      background-color: #FFFFFF;
+      padding-top: 2em;
+      bottom: 0;
+      position: relative;
+      color:#1F1F1F ;
+      width: 100%;
+    }
+    .info{   
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .dato{
+      color: #7BA2C1;
+      font-family: St;
+      font-size: 3vh;
+    }
+    .img_fot{
+      height: 4vh;
+    }
+    .imgfoot{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+    }
+    .Titulo-Foot{
+      width: 86%;
+      margin-left: 7vw;
+      margin-right: 7vw;
+      margin-top: 40px;
+      padding-top: 10px;
+      text-align: center;
+      font-family: "St";
+      font-size: 3vh;
+      color: #7BA2C1;
+      border-top: 2px solid #7BA2C1;
+    }
+    .imagsz{
+      width: 100px;
+    }
+    
 }
 
 /*PANTALLA CELU ---------------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 999px) {
-/* COSAS GENERALES*/
-  .Titulo{
-    width: 100%;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: "St";
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #7BA2C1;
-  }
-  .parrafos{
-    font-family: LeagueSpartan;
-    font-size: 2.5vh;
-    padding: 8px;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: justify;
-  }
-/*HEADER*/
-header{ 
-  height: 18vh; 
-  background-color: #FFFFFF;
+ /* COSAS GENERALES*/
+ .Titulo{
   width: 100%;
-  position: fixed;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  margin-bottom: 10px;
   text-align: center;
-  top: 0;
+  font-family: "St";
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #6e95b6;
+}
+.parrafos{
+  font-family: LeagueSpartan;
+  font-size: 2.5vh;
+  padding: 8px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+}
+/*HEADER*/
+nav{ 
+background-color: #7BA2C1;
+width: 100%;
+height: 18vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+top: 0;
+transition: top 0.5s;
 }    
-.logodiv{
-  text-align: left;
+.menu a{
+margin: 2vh;
+padding: 1vh;
+font-size: 2.5vh;
+display: block;
+}
+.menu a:hover{
+background-color: #7BA2C1;
+color: #FFFFFF;
 }
 .logo{
-  height: 17vh;
-  padding: 3px;
-} 
-.menu a{
-  margin: 2vh;
-  padding: 1vh;
-  font-size: 2.5vh;
-  display: block;
+height: 15vh;
 }
 .menu{
-  position: fixed;
-  height: 40vh;
-  background-color: #FFFFFF;
-  top: 0;
-  right: -100%;
-  width: 100%;
-  text-align: center;
-  z-index: 100;
-  transition: 0.8s;
+position: fixed;
+height: 40vh;
+background-color: #7BA2C1;
+top: 0;
+right: -100%;
+width: 100%;
+text-align: center;
+z-index: 100;
+transition: 0.8s;
 }
 .show-menu{
-  display: block;
-  text-align: right;
-  padding: 4vh;
-  padding-right: 6vh;
-  font-size: 6vh;
+display: block;
+font-size: 6vh;
 }
 .hide-menu{
-  display: block;
-  position: absolute;
-  text-align: right;
-  top: 0;
-  right: 0;
-  padding: 4vh;
-  padding-right: 6vh;
-  font-size: 6vh;
+display: block;
+position: absolute;
+text-align: right;
+top: 0;
+right: 0;
+padding: 4vh;
+padding-right: 6vh;
+font-size: 6vh;
 }
 #check:checked ~ .menu{
-  right: 0;
+right: 0;
 }
 /*BODY*/
   .espacio{
     margin-top: 18vh;
+    background-color: #7BA2C1;
   }
   .objetivos{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 4vh;
+    margin-left: 8%;
+    margin-right: 8%;
   }
   .galeria{
     margin: 15px;
-    padding: 15px;
-    text-align: center;
-    background-color: #7BA2C1;
+    align-items: center;
+    text-align: justify;
+    display: grid;
   }
+  .galeria2{
+    margin: 15px;
+    align-items: center;
+    text-align: justify;
+    display: grid;
+  }
+  .galeria2 img,
   .galeria img{
-    height: 50vh;
+    width: 80vw;
+    height: auto; 
   }
   .tituloimg{
     font-family: "st";
     font-size: 25px;
     margin-top: 10px;
-    color: #FFFFFF;
+    color: #637f97;
   }
   .textimg{
     font-family: LeagueSpartan;
-    font-size: 2.5vh;
-    text-align: center;
+    font-size: 25px;
     margin-top: 10px;
-    color: #FFFFFF;
+    color: #637f97;
   }
 /* FOOTER */
   footer{
