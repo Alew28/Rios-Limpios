@@ -5,7 +5,7 @@ window.onscroll = function() {
     document.getElementById('navbar').style.top = '0';
   }
   else{
-    document.getElementById('navbar').style.top = '-15vh';
+    document.getElementById('navbar').style.top = '-18vh';
   }
   ubicacionPrincipal = desplazamientoActual;
 }
